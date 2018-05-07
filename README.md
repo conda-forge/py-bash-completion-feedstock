@@ -19,10 +19,10 @@ All platforms:
 
 Current release info
 ====================
-[![Conda Recipe](https://img.shields.io/badge/recipe-py--bash--completion-green.svg)](https://anaconda.org/conda-forge/py-bash-completion)
-[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/py-bash-completion.svg)](https://anaconda.org/conda-forge/py-bash-completion)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/py-bash-completion.svg)](https://anaconda.org/conda-forge/py-bash-completion)
-[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/py-bash-completion.svg)](https://anaconda.org/conda-forge/py-bash-completion)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-py--bash--completion-green.svg)](https://anaconda.org/conda-forge/py-bash-completion) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/py-bash-completion.svg)](https://anaconda.org/conda-forge/py-bash-completion) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/py-bash-completion.svg)](https://anaconda.org/conda-forge/py-bash-completion) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/py-bash-completion.svg)](https://anaconda.org/conda-forge/py-bash-completion) |
 
 Installing py-bash-completion
 =============================
