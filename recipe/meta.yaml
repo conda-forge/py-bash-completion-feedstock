@@ -1,6 +1,6 @@
 {% set name = "py-bash-completion" %}
-{% set version = "0.2.1" %}
-{% set sha256 = "55ddaab064e178618a2206edf4b9e8ed42e19e370f0e8157cb6668db6a8eb826" %}
+{% set version = "0.2.2" %}
+{% set sha256 = "73abf96a40b742cc08b728c2f53124608f07bfada23f010a262cd2b32adaaa22" %}
 
 package:
   name: {{ name|lower }}
