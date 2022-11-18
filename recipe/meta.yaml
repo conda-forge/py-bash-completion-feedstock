@@ -1,6 +1,6 @@
 {% set name = "py-bash-completion" %}
-{% set version = "0.2.6" %}
-{% set sha256 = "a25802fa92177a317a56a0787a583c31c910c3660a7e40d2d85e19c5512e511b" %}
+{% set version = "0.2.7" %}
+{% set sha256 = "c26492ca073739fe1a1aa0c50c3fa62639d892776a074a383e068ab550ec6bf0" %}
 
 package:
   name: {{ name|lower }}
@@ -14,10 +14,10 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
@@ -32,7 +32,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'A framework for accessing bash completions from Python'
+  summary: A framework for accessing bash completions from Python
 
 extra:
   recipe-maintainers:
