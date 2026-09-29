@@ -1,6 +1,6 @@
 {% set name = "py-bash-completion" %}
-{% set version = "0.2.6" %}
-{% set sha256 = "a25802fa92177a317a56a0787a583c31c910c3660a7e40d2d85e19c5512e511b" %}
+{% set version = "0.2.8" %}
+{% set sha256 = "e7a9ee1963dd4f4304fda1cb93519872b57579c6940c0a2710f66b8be0031c7b" %}
 
 package:
   name: {{ name|lower }}
@@ -37,3 +37,4 @@ about:
 extra:
   recipe-maintainers:
     - scopatz
+    - pb01ka
